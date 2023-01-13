@@ -3,6 +3,7 @@ html {
   background: url('https://thumbs.dreamstime.com/b/drum-stick-orange-table-background-top-view-music-concept-176417570.jpg') bottom center;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 body,html {
@@ -11,12 +12,30 @@ body,html {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-size: 8em;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height:50vh;
   align-items: center;
   justify-content: center;
+}
+
+.music {
+  background-color: rebeccapurpled;
+  position: absolute;
+  margin: auto;
+  top: 60%;
+  width: 1200px;
+  height: 300px;
+  border: none;
 }
 
 .key {
@@ -56,11 +75,11 @@ kbd {
   text-shadow: 0px 0px 10px #ff5e62;
 }
 
-/* .playing {
+.playing {
   transform: scale(2);
   border-color: #91ff00;
   box-shadow: 0 0 1rem #91ff00;
-} */
+}
 
 .sound {
   font-size: 1.2rem;
@@ -68,4 +87,4 @@ kbd {
   letter-spacing: .1rem;
   color: #fff;
   text-shadow: 0px 0px 10px #ff5e62;
-}
+} 
